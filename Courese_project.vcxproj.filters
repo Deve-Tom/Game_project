@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\角色素材">
+      <UniqueIdentifier>{285ef480-2d34-47bc-9d8a-becad1ec0f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\角色素材\巫师">
+      <UniqueIdentifier>{5e2d2cf5-6920-432c-b200-df17d600548d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\角色素材\战士">
+      <UniqueIdentifier>{0c8c6d9d-4809-4755-be24-04e258ce8106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\角色素材\大师">
+      <UniqueIdentifier>{048780e4-02c6-497e-96f2-610952bb931c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\界面元素">
+      <UniqueIdentifier>{facdeb87-8888-4fe0-aa3f-eeaac1b091b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\界面元素\按钮">
+      <UniqueIdentifier>{07319be6-5c75-4866-b50f-0b52d868a383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\音乐">
+      <UniqueIdentifier>{4861f8cc-7d55-46ae-82c1-7115736ec528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\音乐\背景音乐">
+      <UniqueIdentifier>{ae0b11b9-ed91-4f30-9896-d44f671e8cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\界面元素\界面构成组件">
+      <UniqueIdentifier>{b92cbb69-61b0-4178-9432-d7a2666dbf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\其它">
+      <UniqueIdentifier>{5a07846f-86eb-4890-b916-2f320bfbb8d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WarSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Systemloger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WarSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Systemloger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="otherScourse\wizard_actor.gif">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\solder_actor.gif">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\master_actor.gif">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\back_startButton.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\button_left.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\button_right.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\continue_button.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\exit_button.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\start_button.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\help_button.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\start_button2.png">
+      <Filter>资源文件\界面元素\按钮</Filter>
+    </Image>
+    <Image Include="otherScourse\win_show.png">
+      <Filter>资源文件\界面元素\界面构成组件</Filter>
+    </Image>
+    <Image Include="otherScourse\fail_show.png">
+      <Filter>资源文件\界面元素\界面构成组件</Filter>
+    </Image>
+    <Image Include="otherScourse\start.png">
+      <Filter>资源文件\界面元素</Filter>
+    </Image>
+    <Image Include="otherScourse\skull-with-syringe.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\riposte.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\potion-of-madness.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\heart-plus.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\heart-minus.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\baton.png">
+      <Filter>资源文件\其它</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_master_dead.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_master_dead_2.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_master_live.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_master_lowblood.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_solider_dead.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_solider_dead_2.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_solider_live.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_solider_lowblood.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_wizard_dead.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_wizard_dead_2.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_wizard_live.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\actor_wizard_lowblood.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\solder_actor_reverse.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\wizard_actor_reverse.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\master_actor_reverse.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_master_dead.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_master_live.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_master_lowblood.png">
+      <Filter>资源文件\角色素材\大师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_Solder_dead.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_Solder_live.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_Solder_lowblood.png">
+      <Filter>资源文件\角色素材\战士</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_wizard_dead.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_wizard_live.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+    <Image Include="otherScourse\computer_wizard_lowblood.png">
+      <Filter>资源文件\角色素材\巫师</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="otherScourse\start_1.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\fail.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\start_2.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\vector.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
