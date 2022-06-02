@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WarSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WarSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="otherScourse\start.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\start_button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\baton.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\heart-minus.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\heart-plus.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\master_actor.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\potion-of-madness.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\riposte.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\skull-with-syringe.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\solder_actor.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\wizard_actor.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\button_right.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\button_left.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\fail_show.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\win_show.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\start_button2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\continue_button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\exit_button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\help_button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="otherScourse\back_startButton.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="otherScourse\start_1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="otherScourse\start_2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="otherScourse\fail.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="otherScourse\vector.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
