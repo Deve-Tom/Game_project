@@ -43,6 +43,9 @@
     <Filter Include="资源文件\其它">
       <UniqueIdentifier>{5a07846f-86eb-4890-b916-2f320bfbb8d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\界面元素\角色攻击">
+      <UniqueIdentifier>{f4bcd640-6bf9-4937-8104-8c58b5d504e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h">
@@ -52,6 +55,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Systemloger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -66,6 +75,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Systemloger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -205,6 +220,30 @@
     <Image Include="otherScourse\computer_wizard_lowblood.png">
       <Filter>资源文件\角色素材\巫师</Filter>
     </Image>
+    <Image Include="otherScourse\magicAttac.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\normalAttack.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\rest.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\takingDrug.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\takingRest.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\masterAttack.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\NoDrug.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
+    <Image Include="otherScourse\none.png">
+      <Filter>资源文件\界面元素\角色攻击</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="otherScourse\start_1.mp3">
@@ -217,6 +256,18 @@
       <Filter>资源文件\音乐\背景音乐</Filter>
     </Media>
     <Media Include="otherScourse\vector.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\battle1.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\battle2.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\battle3.mp3">
+      <Filter>资源文件\音乐\背景音乐</Filter>
+    </Media>
+    <Media Include="otherScourse\battle4.mp3">
       <Filter>资源文件\音乐\背景音乐</Filter>
     </Media>
   </ItemGroup>

@@ -27,7 +27,18 @@ bool Systemloger::logWrite(const std::string& data,int _flag) {
 	else if (_flag == Systemloger::BATTELLOG) {
 		out.open("dataGameBattle.log", std::ios_base::app);
 		if (out.is_open()) {
-			out << getTime() << " " << data << std::endl;
+			out << data << std::endl;
+			out.close();
+		}
+		else {
+			MessageBox(0, "文件打开错误！", "错误", MB_OK);
+			return false;
+		}
+	}
+	else if (_flag == Systemloger::OLDDATA) {
+		out.open("dataGameOld.log", std::ios_base::app);
+		if (out.is_open()) {
+			out << data << std::endl;
 			out.close();
 		}
 		else {
@@ -39,31 +50,69 @@ bool Systemloger::logWrite(const std::string& data,int _flag) {
 	return true;
 }
 
-std::string& Systemloger::logRead(std::string& data,int _flag) {
-	std::ifstream in;
-	if (_flag == Systemloger::BATTELLOG) {
-	in.open("dataGame.log", std::ios_base::in);
-	if (in.is_open()) {
-	while (!in.eof()) {
-		getline(in, data);
-	}
-	in.close();
-	}
-	else {
-		MessageBox(0, "文件打开错误！", "错误", MB_OK);
-	}
-	}
-	else {
-		in.open("dataGameBattle.log", std::ios_base::in);
-		if (in.is_open()) {
-			while (!in.eof()) {
-				getline(in, data);
-			}
-			in.close();
+bool Systemloger::logWrite(const int& data, int _flag) {
+	std::ofstream out;
+	if (_flag == Systemloger::CLICKLOG) {
+		out.open("dataGameClick.log", std::ios_base::app);
+		if (out.is_open()) {
+			out << getTime() << " " << data << std::endl;
+			out.close();
 		}
 		else {
 			MessageBox(0, "文件打开错误！", "错误", MB_OK);
+			return false;
 		}
 	}
-	return data;
+	else if (_flag == Systemloger::BATTELLOG) {
+		out.open("dataGameBattle.log", std::ios_base::app);
+		if (out.is_open()) {
+			out << data << std::endl;
+			out.close();
+		}
+		else {
+			MessageBox(0, "文件打开错误！", "错误", MB_OK);
+			return false;
+		}
+	}
+	else if (_flag == Systemloger::OLDDATA) {
+		out.open("dataGameOld.log", std::ios_base::app);
+		if (out.is_open()) {
+			out << data << std::endl;
+			out.close();
+		}
+		else {
+			MessageBox(0, "文件打开错误！", "错误", MB_OK);
+			return false;
+		}
+	}
+	else return false;
+	return true;
+}
+
+std::fstream& Systemloger::logRead(std::fstream& in,int _flag) {
+	if (_flag == Systemloger::BATTELLOG) {
+	in.open("dataGameBattle.log", std::ios_base::in);
+	if (in.is_open()) {
+		return in;
+	}
+	else {
+		return in;
+	}
+	}
+	else if(_flag == Systemloger::OLDDATA) {
+		in.open("dataGameOld.log", std::ios_base::in);
+		if (in.is_open()) {
+			return in;
+		}
+		else {
+			return in;
+		}
+	}
+	return in;
+}
+
+const char* Systemloger::fileName(int _flag) {
+	if (_flag == Systemloger::OLDDATA) return "dataGameOld.log";
+	if (_flag == Systemloger::BATTELLOG) return "dataGameBattle.log";
+	if (_flag == Systemloger::CLICKLOG) return "dataGameClick.log";
 }

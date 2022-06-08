@@ -50,7 +50,8 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -132,17 +133,23 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>msvcprtd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Systemloger.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="WarSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Systemloger.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="WarSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +189,8 @@
     <Image Include="otherScourse\help_button.png" />
     <Image Include="otherScourse\master_actor.gif" />
     <Image Include="otherScourse\master_actor_reverse.png" />
+    <Image Include="otherScourse\NoDrug.png" />
+    <Image Include="otherScourse\none.png" />
     <Image Include="otherScourse\potion-of-madness.png" />
     <Image Include="otherScourse\riposte.png" />
     <Image Include="otherScourse\skull-with-syringe.png" />
@@ -193,12 +202,22 @@
     <Image Include="otherScourse\win_show.png" />
     <Image Include="otherScourse\wizard_actor.gif" />
     <Image Include="otherScourse\wizard_actor_reverse.png" />
+    <Image Include="otherScourse\rest.png" />
+    <Image Include="otherScourse\normalAttack.png" />
+    <Image Include="otherScourse\takingRest.png" />
+    <Image Include="otherScourse\takingDrug.png" />
+    <Image Include="otherScourse\magicAttac.png" />
+    <Image Include="otherScourse\masterAttack.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="otherScourse\fail.mp3" />
     <Media Include="otherScourse\start_1.mp3" />
     <Media Include="otherScourse\start_2.mp3" />
     <Media Include="otherScourse\vector.mp3" />
+    <Media Include="otherScourse\battle1.mp3" />
+    <Media Include="otherScourse\battle2.mp3" />
+    <Media Include="otherScourse\battle3.mp3" />
+    <Media Include="otherScourse\battle4.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
